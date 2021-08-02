@@ -1,0 +1,11 @@
+Preleminary
+ tasks
+base
+ functions
+ for
+ importing
+ data
+Reading
+  local
+ file
+Reading 
