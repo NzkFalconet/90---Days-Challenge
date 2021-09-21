@@ -22,14 +22,14 @@ int partition(int a[] , int l , int h)
     return j;
 }
 
-void quickSort( int a[], int l , int h)
+void quickSort( int arr[], int l , int h)
 {
     int j;
     if(l<h)
     {
-         j=partition(a,l,h);
-            quickSort(a,l,j);
-    quickSort(a,j+1,h);
+         j=partition(arr,l,h);
+            quickSort(arr,l,j);
+    quickSort(arr,j+1,h);
     }
 
 }
